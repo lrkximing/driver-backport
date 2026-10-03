@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+driver_backport/local.model.json
+state/
+results/
+runs/
+*.ko
+*.o
+*.log
+*.pem
+*.key
+compile_commands.json
