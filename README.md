@@ -1,8 +1,8 @@
 # Driver Backport
 
-## 环境配置
+## Environment
 
-需要 Python 3.11+、`make`、内核编译工具链、`libclang`、目标 Linux 内核源码，以及与所选案例 `SourceVersion` 对应的 donor 内核源码。目标和 donor 的 `compile_commands` 必须来自各自实际的配置和架构；这些文件不随仓库提供。
+Requires Python 3.11+, `make`, a kernel build toolchain, `libclang`, the target Linux kernel source tree, and the donor kernel source tree matching the selected case's `SourceVersion`. The target and donor `compile_commands` must reflect their actual configurations and architectures. These inputs are not included in this repository.
 
 ```sh
 python3 -m venv .venv
@@ -10,15 +10,15 @@ python3 -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-通过环境变量或本机密钥管理器配置 `OPENAI_API_KEY`、`OPENAI_MODEL`；使用其他兼容 Chat Completions 的服务时设置 `OPENAI_BASE_URL`。如需流式响应，设置 `OPENAI_STREAM=true`。不要将密钥或 `driver_backport/local.model.json` 提交到仓库。若 Python 找不到 `libclang`，设置 `LIBCLANG_FILE` 或 `LIBCLANG_PATH`。
+Set `OPENAI_API_KEY` and `OPENAI_MODEL` through environment variables or a local secret manager. For another Chat Completions-compatible service, set `OPENAI_BASE_URL`. Set `OPENAI_STREAM=true` for streaming responses. Do not commit credentials or `driver_backport/local.model.json`. If Python cannot find `libclang`, set `LIBCLANG_FILE` or `LIBCLANG_PATH`.
 
-## 数据集
+## Dataset
 
-[`datasets/driver_cases_v6.6.csv`](datasets/driver_cases_v6.6.csv) 包含 92 个案例。`Path` 是内核树内的相对路径，`SourceVersion` 是 donor 版本，`BaselineOld` 是目标版本。`--rows` 使用 CSV 的物理行号，首行是表头；第一个案例为第 2 行。数据集不包含实验结果、内核源码或编译数据库。
+[`datasets/driver_cases_v6.6.csv`](datasets/driver_cases_v6.6.csv) contains 92 cases. `Path` is relative to the kernel tree, `SourceVersion` identifies the donor version, and `BaselineOld` identifies the target version. `--rows` uses physical CSV line numbers: line 1 is the header, and the first case is on line 2. The dataset does not include experimental results, kernel sources, or compilation databases.
 
-## 运行
+## Run
 
-从仓库根目录生成单个案例配置（不调用模型）：
+From the repository root, generate a single-case configuration without calling the model:
 
 ```sh
 python -m driver_backport.cli.automate_ast_migration dataset-migrate \
@@ -31,7 +31,7 @@ python -m driver_backport.cli.automate_ast_migration dataset-migrate \
   --output-dir /path/to/case-output
 ```
 
-编译数据库的路径格式是 `<matrix-root>/cases/compile_commands_dataset_<label>/<case-id>.json`。更换案例时，按其 `SourceVersion` 更换 donor 源码和标签。核对生成的目标架构、配置、编译命令与构建目标后运行：
+Compilation databases are located at `<matrix-root>/cases/compile_commands_dataset_<label>/<case-id>.json`. For another case, select the donor source tree and label matching its `SourceVersion`. Check the generated target architecture, configuration, compiler commands, and build target before running:
 
 ```sh
 python -m driver_backport.cli.automate_ast_migration auto-migrate \
@@ -39,4 +39,4 @@ python -m driver_backport.cli.automate_ast_migration auto-migrate \
   --model "$OPENAI_MODEL" --max-repair-rounds 5
 ```
 
-结果写入案例的状态目录；分别查看 `final_compile_validated` 与 `semantic_complete`，编译通过不等于语义闭合。批量运行选项见 `dataset-migrate --help`。
+Results are written to the case state directory. Check `final_compile_validated` and `semantic_complete` separately: a successful build does not imply semantic closure. For batch options, see `dataset-migrate --help`.
