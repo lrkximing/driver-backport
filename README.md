@@ -2,7 +2,7 @@
 
 ## Environment
 
-Requires Python 3.11+, `make`, a kernel build toolchain, `libclang`, the target Linux kernel source tree, and the donor kernel source tree matching the selected case's `SourceVersion`. The target and donor `compile_commands` must reflect their actual configurations and architectures. These inputs are not included in this repository.
+Requires Python 3.11+, `make`, a kernel build toolchain, `libclang`, and the target and donor Linux kernel source trees. The target and donor `compile_commands` must reflect their actual configurations and architectures. These inputs are not included in this repository.
 
 ```sh
 python3 -m venv .venv
@@ -14,7 +14,7 @@ Set `OPENAI_API_KEY` and `OPENAI_MODEL` through environment variables or a local
 
 ## Dataset
 
-[`datasets/driver_cases_v6.6.csv`](datasets/driver_cases_v6.6.csv) contains 92 cases. `Path` is relative to the kernel tree, `SourceVersion` identifies the donor version, and `BaselineOld` identifies the target version. `--rows` uses physical CSV line numbers: line 1 is the header, and the first case is on line 2. The dataset does not include experimental results, kernel sources, or compilation databases.
+[`datasets/driver_cases_v6.6.csv`](datasets/driver_cases_v6.6.csv) contains 92 cases with four input columns: `CaseID` (stable case and compilation-database identifier), `Type` (category used by `--type`), `Name` (driver label used by `--name` and build-phase naming), and `Path` (entry file relative to the kernel tree). Target and donor versions are selected through the source-tree paths and compilation-database labels supplied below. `--rows` uses CSV record numbers: record 1 is the header, and the first case is record 2. The dataset does not include experimental results, kernel sources, or compilation databases.
 
 ## Run
 
@@ -24,14 +24,14 @@ From the repository root, generate a single-case configuration without calling t
 python -m driver_backport.cli.automate_ast_migration dataset-migrate \
   datasets/driver_cases_v6.6.csv --rows 2 --dry-run \
   --old-root /path/to/linux-6.6 \
-  --donor-root /path/to/matching-donor-linux \
+  --donor-root /path/to/linux-6.19 \
   --compile-commands-matrix-root /path/to/compile-matrix \
   --compile-commands-label v6.6 \
-  --donor-compile-commands-label donor-v6.13 \
+  --donor-compile-commands-label donor-v6.19 \
   --output-dir /path/to/case-output
 ```
 
-Compilation databases are located at `<matrix-root>/cases/compile_commands_dataset_<label>/<case-id>.json`. For another case, select the donor source tree and label matching its `SourceVersion`. Check the generated target architecture, configuration, compiler commands, and build target before running:
+Compilation databases are located at `<matrix-root>/cases/compile_commands_dataset_<label>/<case-id>.json`. The labels must match the selected source trees and build contexts. Check the generated target architecture, configuration, compiler commands, and build target before running:
 
 ```sh
 python -m driver_backport.cli.automate_ast_migration auto-migrate \

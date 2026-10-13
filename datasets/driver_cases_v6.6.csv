@@ -1,93 +1,93 @@
-CaseID,SourceRowNumber,Type,Name,Path,DatasetSource,OriginalCaseId,SourceVersion,ReleaseRange,BaselineOld,ScopeClass,ScopeRecommendation
-dataset-002-rtw8821au,2,new_driver_local_multifile_or_stack,rtw8821au,drivers/net/wireless/realtek/rtw88/rtw8821au.c,current_main_pool,dataset-002-rtw8821au,v6.13,v6.12..v6.13,v6.6,new_driver_local_multifile_or_stack,keep_if_multifile_allowed
-dataset-003-rtw8812au,3,new_driver_local_multifile_or_stack,rtw8812au,drivers/net/wireless/realtek/rtw88/rtw8812au.c,current_main_pool,dataset-003-rtw8812au,v6.13,v6.12..v6.13,v6.6,new_driver_local_multifile_or_stack,keep_if_multifile_allowed
-dataset-005-realtek-dhc-rtd-soc-dwc3-glue,5,standalone_new_driver,Realtek DHC RTD SoC DWC3 glue,drivers/usb/dwc3/dwc3-rtk.c,current_main_pool,dataset-005-realtek-dhc-rtd-soc-dwc3-glue,v6.7,v6.6..v6.7,v6.6,standalone_new_driver,keep_main_experiment
-dataset-006-boe-th101mb31ig002-28a-panel,6,standalone_new_driver,BOE TH101MB31IG002-28A panel,drivers/gpu/drm/panel/panel-boe-th101mb31ig002-28a.c,current_main_pool,dataset-006-boe-th101mb31ig002-28a-panel,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-007-novatek-nt36672e-lcd-dsi-panel,7,standalone_new_driver,Novatek NT36672E LCD DSI panel,drivers/gpu/drm/panel/panel-novatek-nt36672e.c,current_main_pool,dataset-007-novatek-nt36672e-lcd-dsi-panel,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-008-ite-it5205-alternate-mode-passive-mux,8,standalone_new_driver,ITE IT5205 Alternate Mode Passive MUX,drivers/usb/typec/mux/it5205.c,current_main_pool,dataset-008-ite-it5205-alternate-mode-passive-mux,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-009-asus-rog-ryujin-ii-360-aio-cooler,9,standalone_new_driver_with_new_framework_header,ASUS ROG RYUJIN II 360 AIO cooler,drivers/hwmon/asus_rog_ryujin.c,current_main_pool,dataset-009-asus-rog-ryujin-ii-360-aio-cooler,v6.9,v6.8..v6.9,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-010-astera-labs-pt5161l-retimer,10,standalone_new_driver,Astera Labs PT5161L retimer,drivers/hwmon/pt5161l.c,current_main_pool,dataset-010-astera-labs-pt5161l-retimer,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-011-ltc4282,11,standalone_new_driver,LTC4282,drivers/hwmon/ltc4282.c,current_main_pool,dataset-011-ltc4282,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-012-mps-mpq8785-converter,12,standalone_new_driver,MPS MPQ8785 converter,drivers/hwmon/pmbus/mpq8785.c,current_main_pool,dataset-012-mps-mpq8785-converter,v6.9,v6.8..v6.9,v6.6,standalone_new_driver,keep_main_experiment
-dataset-013-nzxt-kraken-x-z-aio-coolers,13,standalone_new_driver_with_new_framework_header,NZXT Kraken X/Z AIO coolers,drivers/hwmon/nzxt-kraken3.c,current_main_pool,dataset-013-nzxt-kraken-x-z-aio-coolers,v6.9,v6.8..v6.9,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-014-raydium-rm69380-dsi-panel,14,standalone_new_driver,Raydium RM69380 DSI panel,drivers/gpu/drm/panel/panel-raydium-rm69380.c,current_main_pool,dataset-014-raydium-rm69380-dsi-panel,v6.10,v6.9..v6.10,v6.6,standalone_new_driver,keep_main_experiment
-dataset-015-airoha-en7581-spi-nand-flash-controller,15,standalone_new_driver_with_new_framework_header,Airoha EN7581 SPI-NAND flash controller,drivers/spi/spi-airoha-snfi.c,current_main_pool,dataset-015-airoha-en7581-spi-nand-flash-controller,v6.10,v6.9..v6.10,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-016-lenovo-se10-watchdog,16,new_driver_local_multifile_or_stack,Lenovo SE10 watchdog,drivers/watchdog/lenovo_se10_wdt.c,current_main_pool,dataset-016-lenovo-se10-watchdog,v6.10,v6.9..v6.10,v6.6,new_driver_local_multifile_or_stack,keep_if_multifile_allowed
-dataset-017-allwinner-d1-ldos-driver,17,standalone_new_driver,Allwinner D1 LDOs driver,drivers/regulator/sun20i-regulator.c,current_main_pool,dataset-017-allwinner-d1-ldos-driver,v6.10,v6.9..v6.10,v6.6,standalone_new_driver,keep_main_experiment
-dataset-018-epson-rx8111-rtc,18,standalone_new_driver,Epson RX8111 RTC,drivers/rtc/rtc-rx8111.c,current_main_pool,dataset-018-epson-rx8111-rtc,v6.10,v6.9..v6.10,v6.6,standalone_new_driver,keep_main_experiment
-dataset-019-ch341a-usb-to-spi-driver,19,standalone_new_driver,CH341A USB-to-SPI driver,drivers/spi/spi-ch341.c,current_main_pool,dataset-019-ch341a-usb-to-spi-driver,v6.11,v6.10..v6.11,v6.6,standalone_new_driver,keep_main_experiment
-dataset-021-ti-ads1119-adc,21,standalone_new_driver,TI ADS1119 ADC,drivers/iio/adc/ti-ads1119.c,current_main_pool,dataset-021-ti-ads1119-adc,v6.11,v6.10..v6.11,v6.6,standalone_new_driver,keep_main_experiment
-dataset-022-vishay-veml6040-rgbw-light-sensor,22,standalone_new_driver,Vishay VEML6040 RGBW light sensor,drivers/iio/light/veml6040.c,current_main_pool,dataset-022-vishay-veml6040-rgbw-light-sensor,v6.11,v6.10..v6.11,v6.6,standalone_new_driver,keep_main_experiment
-dataset-023-axi-pwm-generator,23,standalone_new_driver_with_new_framework_header,AXI PWM generator,drivers/pwm/pwm-axi-pwmgen.c,current_main_pool,dataset-023-axi-pwm-generator,v6.11,v6.10..v6.11,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-026-sy7802-flash-led-driver,26,standalone_new_driver,SY7802 flash LED driver,drivers/leds/flash/leds-sy7802.c,current_main_pool,dataset-026-sy7802-flash-led-driver,v6.11,v6.10..v6.11,v6.6,standalone_new_driver,keep_main_experiment
-dataset-027-sharp-memory-lcd-driver,27,standalone_new_driver_with_new_framework_header,Sharp Memory LCD driver,drivers/gpu/drm/tiny/sharp-memory.c,current_main_pool,dataset-027-sharp-memory-lcd-driver,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-028-apple-spi-controller,28,standalone_new_driver,Apple SPI controller,drivers/spi/spi-apple.c,current_main_pool,dataset-028-apple-spi-controller,v6.13,v6.12..v6.13,v6.6,standalone_new_driver,keep_main_experiment
-dataset-030-bosch-bmi270-i2c-imu,30,new_driver_local_multifile_or_stack,Bosch BMI270 I2C IMU,drivers/iio/imu/bmi270/bmi270_i2c.c,current_main_pool,dataset-030-bosch-bmi270-i2c-imu,v6.13,v6.12..v6.13,v6.6,new_driver_local_multifile_or_stack,keep_if_multifile_allowed
-dataset-031-bosch-smi240-imu,31,standalone_new_driver_with_new_framework_header,Bosch SMI240 IMU,drivers/iio/imu/smi240.c,current_main_pool,dataset-031-bosch-smi240-imu,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-032-vishay-veml3235-light-sensor,32,standalone_new_driver,Vishay VEML3235 light sensor,drivers/iio/light/veml3235.c,current_main_pool,dataset-032-vishay-veml3235-light-sensor,v6.13,v6.12..v6.13,v6.6,standalone_new_driver,keep_main_experiment
-dataset-033-renesas-isl28022-power-monitor,33,standalone_new_driver,Renesas ISL28022 power monitor,drivers/hwmon/isl28022.c,current_main_pool,dataset-033-renesas-isl28022-power-monitor,v6.13,v6.12..v6.13,v6.6,standalone_new_driver,keep_main_experiment
-dataset-034-nuvoton-nct7363y-fan-controller,34,standalone_new_driver,Nuvoton NCT7363Y fan controller,drivers/hwmon/nct7363.c,current_main_pool,dataset-034-nuvoton-nct7363y-fan-controller,v6.13,v6.12..v6.13,v6.6,standalone_new_driver,keep_main_experiment
-dataset-035-si7210-hall-magnetometer,35,standalone_new_driver_with_new_framework_header,Si7210 Hall/magnetometer,drivers/iio/magnetometer/si7210.c,current_main_pool,dataset-035-si7210-hall-magnetometer,v6.15,v6.14..v6.15,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-036-al3000a-ambient-light-sensor,36,standalone_new_driver_with_new_framework_header,AL3000A ambient light sensor,drivers/iio/light/al3000a.c,current_main_pool,dataset-036-al3000a-ambient-light-sensor,v6.15,v6.14..v6.15,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-037-sophgo-sg2042-pwm,37,standalone_new_driver,Sophgo SG2042 PWM,drivers/pwm/pwm-sophgo-sg2042.c,current_main_pool,dataset-037-sophgo-sg2042-pwm,v6.15,v6.14..v6.15,v6.6,standalone_new_driver,keep_main_experiment
-dataset-038-rockchip-rk3588-rng,38,standalone_new_driver,Rockchip RK3588 RNG,drivers/char/hw_random/rockchip-rng.c,current_main_pool,dataset-038-rockchip-rk3588-rng,v6.12,v6.11..v6.12,v6.6,standalone_new_driver,keep_main_experiment
-dataset-039-nxp-s32g2-s32g3-rtc,39,standalone_new_driver,NXP S32G2/S32G3 RTC,drivers/rtc/rtc-s32g.c,current_main_pool,dataset-039-nxp-s32g2-s32g3-rtc,v6.16,v6.15..v6.16,v6.6,standalone_new_driver,keep_main_experiment
-dataset-040-winsen-mh-z19b-co2-sensor,40,standalone_new_driver_with_new_framework_header,Winsen MH-Z19B CO2 sensor,drivers/iio/chemical/mhz19b.c,current_main_pool,dataset-040-winsen-mh-z19b-co2-sensor,v6.16,v6.15..v6.16,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-041-adi-ad3530r-ad3531r-dacs,41,standalone_new_driver_with_new_framework_header,ADI AD3530R/AD3531R DACs,drivers/iio/dac/ad3530r.c,current_main_pool,dataset-041-adi-ad3530r-ad3531r-dacs,v6.16,v6.15..v6.16,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-042-nuvoton-nct7201-adc,42,standalone_new_driver_with_new_framework_header,Nuvoton NCT7201 ADC,drivers/iio/adc/nct7201.c,current_main_pool,dataset-042-nuvoton-nct7201-adc,v6.16,v6.15..v6.16,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-043-dfrobot-sen0322-oxygen-sensor,43,standalone_new_driver,DFRobot SEN0322 oxygen sensor,drivers/iio/chemical/sen0322.c,current_main_pool,dataset-043-dfrobot-sen0322-oxygen-sensor,v6.16,v6.15..v6.16,v6.6,standalone_new_driver,keep_main_experiment
-dataset-044-ad4170-4,44,standalone_new_driver_with_new_framework_header,,drivers/iio/adc/ad4170-4.c,current_main_pool,dataset-044-ad4170-4,v6.17,v6.16..v6.17,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-047-panel-samsung-s6e8aa5x01-ams561ra01,47,standalone_new_driver,,drivers/gpu/drm/panel/panel-samsung-s6e8aa5x01-ams561ra01.c,current_main_pool,dataset-047-panel-samsung-s6e8aa5x01-ams561ra01,v6.18,v6.17..v6.18,v6.6,standalone_new_driver,keep_main_experiment
-dataset-048-nxp-s32g-ocotp,48,standalone_new_driver,NXP S32G OCOTP,drivers/nvmem/s32g-ocotp-nvmem.c,current_main_pool,dataset-048-nxp-s32g-ocotp,v6.18,v6.17..v6.18,v6.6,standalone_new_driver,keep_main_experiment
-dataset-049-himax-hx852x-hx852xes-touchscreen,49,standalone_new_driver_with_new_framework_header,Himax HX852x/HX852xES touchscreen,drivers/input/touchscreen/himax_hx852x.c,current_main_pool,dataset-049-himax-hx852x-hx852xes-touchscreen,v6.18,v6.17..v6.18,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-050-awinic-aw86927-haptic-driver,50,standalone_new_driver,Awinic AW86927 haptic driver,drivers/input/misc/aw86927.c,current_main_pool,dataset-050-awinic-aw86927-haptic-driver,v6.18,v6.17..v6.18,v6.6,standalone_new_driver,keep_main_experiment
-dataset-052-spi-amlogic-spifc-a4,52,standalone_new_driver,,drivers/spi/spi-amlogic-spifc-a4.c,current_main_pool,dataset-052-spi-amlogic-spifc-a4,v6.18,v6.17..v6.18,v6.6,standalone_new_driver,keep_main_experiment
-dataset-053-motorcomm-yt921x-switch-support,53,standalone_new_driver,Motorcomm YT921x switch support,drivers/net/dsa/yt921x.c,current_main_pool,dataset-053-motorcomm-yt921x-switch-support,v6.19,v6.18..v6.19,v6.6,standalone_new_driver,keep_main_experiment
-dataset-055-renesas-rz-n1-adc,55,standalone_new_driver_with_new_framework_header,Renesas RZ/N1 ADC,drivers/iio/adc/rzn1-adc.c,current_main_pool,dataset-055-renesas-rz-n1-adc,v6.19,v6.18..v6.19,v6.6,standalone_new_driver_with_new_framework_header,keep_but_mark_framework_api_risk
-dataset-056-mps-mp9945-pmbus-driver,56,standalone_new_driver,MPS MP9945 PMBus driver,drivers/hwmon/pmbus/mp9945.c,current_main_pool,dataset-056-mps-mp9945-pmbus-driver,v6.19,v6.18..v6.19,v6.6,standalone_new_driver,keep_main_experiment
-dataset-057-maxim-max17616-pmbus-driver,57,standalone_new_driver,Maxim MAX17616 PMBus driver,drivers/hwmon/pmbus/max17616.c,current_main_pool,dataset-057-maxim-max17616-pmbus-driver,v6.19,v6.18..v6.19,v6.6,standalone_new_driver,keep_main_experiment
-dataset-058-tsc1641-i2c-power-monitor,58,standalone_new_driver,TSC1641 I2C power monitor,drivers/hwmon/tsc1641.c,current_main_pool,dataset-058-tsc1641-i2c-power-monitor,v6.19,v6.18..v6.19,v6.6,standalone_new_driver,keep_main_experiment
-dataset-059-mpsse-bryx-brik-gpio-support,59,standalone_new_driver,MPSSE Bryx BRIK GPIO support,drivers/gpio/gpio-mpsse.c,current_main_pool,dataset-059-mpsse-bryx-brik-gpio-support,v6.13,v6.12..v6.13,v6.6,standalone_new_driver,keep_main_experiment
-dataset-060-airoha-true-random-number-generator-driver,60,standalone_new_driver_candidate,Airoha True Random Number Generator driver,drivers/char/hw_random/airoha-trng.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-061-bcm-74110-random-number-generator-rng-driver,61,standalone_new_driver_candidate,BCM 74110 Random Number Generator (RNG) driver,drivers/char/hw_random/bcm74110-rng.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-062-microchip-mpfs-gpio,62,standalone_new_driver_candidate,"microchip,mpfs-gpio",drivers/gpio/gpio-mpfs.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-063-hid-driver-for-corsair-void-headsets,63,standalone_new_driver_candidate,HID driver for Corsair Void headsets,drivers/hid/hid-corsair-void.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-064-hid-driver-for-kysona-devices,64,standalone_new_driver_candidate,HID driver for Kysona devices,drivers/hid/hid-kysona.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-065-ge-healthcare-pmc-adc-driver,65,standalone_new_driver_candidate,GE HealthCare PMC ADC driver,drivers/iio/adc/gehc-pmc-adc.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-066-als31300-3-d-linear-hall-effect-driver,66,standalone_new_driver_candidate,ALS31300 3-D Linear Hall Effect Driver,drivers/iio/magnetometer/als31300.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-067-nxp-ptn3222-eusb2-redriver-driver,67,standalone_new_driver_candidate,NXP PTN3222 eUSB2 Redriver driver,drivers/phy/phy-nxp-ptn3222.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-068-stm32mp25-combophy-usb3-pcie-controller-driver,68,standalone_new_driver_candidate,STM32MP25 Combophy USB3/PCIe controller driver,drivers/phy/st/phy-stm32-combophy.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-069-amlogic-rtc-driver,69,standalone_new_driver_candidate,Amlogic RTC driver,drivers/rtc/rtc-amlogic-a4.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-070-renesas-rtca-3-rtc-driver,70,standalone_new_driver_candidate,Renesas RTCA-3 RTC driver,drivers/rtc/rtc-renesas-rtca3.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-071-realtek-spi-nand-flash-controller-driver,71,standalone_new_driver_candidate,Realtek SPI-NAND Flash Controller Driver,drivers/spi/spi-realtek-rtl-snand.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-072-tusb1046-usb-type-c-switch-driver,72,standalone_new_driver_candidate,TUSB1046 USB Type-C switch driver,drivers/usb/typec/mux/tusb1046.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-073-airoha-en7581-watchdog-driver,73,standalone_new_driver_candidate,Airoha EN7581 Watchdog Driver,drivers/watchdog/airoha_wdt.c,supplement_selected,,v6.13,v6.12..v6.13,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-074-analog-devices-ltc2991-hwmon-driver,74,standalone_new_driver_candidate,Analog Devices LTC2991 HWMON Driver,drivers/hwmon/ltc2991.c,supplement_selected,,v6.7,v6.6..v6.7,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-075-chargerlab-power-z-usb-c-tester,75,standalone_new_driver_candidate,ChargerLAB POWER-Z USB-C tester,drivers/hwmon/powerz.c,supplement_selected,,v6.7,v6.6..v6.7,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-076-linear-technology-ltc2309-adc,76,standalone_new_driver_candidate,Linear Technology LTC2309 ADC,drivers/iio/adc/ltc2309.c,supplement_selected,,v6.7,v6.6..v6.7,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-077-mm8013-fuel-gauge-driver,77,standalone_new_driver_candidate,MM8013 fuel gauge driver,drivers/power/supply/mm8013.c,supplement_selected,,v6.7,v6.6..v6.7,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-078-mstar-ssd202d-rtc-driver,78,standalone_new_driver_candidate,MStar SSD202D RTC Driver,drivers/rtc/rtc-ssd202d.c,supplement_selected,,v6.7,v6.6..v6.7,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-079-mcp2200-microchip-hid-usb-to-gpio-bridge,79,standalone_new_driver_candidate,MCP2200 Microchip HID USB to GPIO bridge,drivers/hid/hid-mcp2200.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-080-hwmon-driver-for-gigabyte-aorus-waterforce-aio-coolers,80,standalone_new_driver_candidate,Hwmon driver for Gigabyte AORUS Waterforce AIO coolers,drivers/hwmon/gigabyte_waterforce.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-081-pmbus-driver-for-ltc4286-and-compatibles,81,standalone_new_driver_candidate,PMBUS driver for LTC4286 and compatibles,drivers/hwmon/pmbus/ltc4286.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-082-maxim-max34408-34409-adc-driver,82,standalone_new_driver_candidate,Maxim MAX34408/34409 ADC driver,drivers/iio/adc/max34408.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-083-aosong-ags02ma-tvoc-driver,83,standalone_new_driver_candidate,Aosong AGS02MA TVOC Driver,drivers/iio/chemical/ags02ma.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-084-microchip-mcp4821-dac-driver,84,standalone_new_driver_candidate,Microchip MCP4821 DAC Driver,drivers/iio/dac/mcp4821.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-085-ti-hdc3020-humidity-and-temperature-sensor-driver,85,standalone_new_driver_candidate,TI HDC3020 humidity and temperature sensor driver,drivers/iio/humidity/hdc3020.c,supplement_selected,,v6.8,v6.7..v6.8,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-086-htu31-temperature-and-humidity-sensor-driver,86,standalone_new_driver_candidate,HTU31 Temperature and Humidity sensor driver,drivers/hwmon/htu31.c,supplement_selected,,v6.15,v6.14..v6.15,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-087-pegatron-chagall-fuel-gauge-driver,87,standalone_new_driver_candidate,Pegatron Chagall fuel gauge driver,drivers/power/supply/chagall-battery.c,supplement_selected,,v6.16,v6.15..v6.16,v6.6,standalone_new_driver_candidate,add_to_main_pool
-dataset-088-dw-mipi-dsi2-host-controller-driver,88,new_driver_candidate_broader_subsystem,DW MIPI DSI2 host controller driver,drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi2.c,hardplus_kernelnewbies_verified,,v6.14,v6.13..v6.14,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-089-drm-driver-for-sitronix-st7571-lcd-controller,89,new_driver_candidate_broader_subsystem,DRM Driver for Sitronix ST7571 LCD controller,drivers/gpu/drm/sitronix/st7571-i2c.c,hardplus_kernelnewbies_verified,,v6.16,v6.15..v6.16,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-090-himax-hx8279-driveric-panels-driver,90,new_driver_candidate_broader_subsystem,Himax HX8279 DriverIC panels driver,drivers/gpu/drm/panel/panel-himax-hx8279.c,hardplus_kernelnewbies_verified,,v6.16,v6.15..v6.16,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-091-solomon-ssd2825-rgb-to-mipi-dsi-bridge-driver-spi,91,new_driver_candidate_broader_subsystem,Solomon SSD2825 RGB to MIPI-DSI bridge driver SPI,drivers/gpu/drm/bridge/ssd2825.c,hardplus_kernelnewbies_verified,,v6.18,v6.17..v6.18,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-092-drm-spi-driver-for-pixpaper-e-ink-panel,92,new_driver_candidate_broader_subsystem,DRM SPI driver for PIXPAPER e-ink panel,drivers/gpu/drm/tiny/pixpaper.c,hardplus_kernelnewbies_verified,,v6.18,v6.17..v6.18,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-093-mediatek-hdmiv2-driver,93,new_driver_candidate_broader_subsystem,MediaTek HDMIv2 Driver,drivers/gpu/drm/mediatek/mtk_hdmi_v2.c,hardplus_kernelnewbies_verified,,v6.19,v6.18..v6.19,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-094-driver-for-maxlinear-gsw1xx-ethernet-switch,94,new_driver_candidate_broader_subsystem,Driver for MaxLinear GSW1xx ethernet switch,drivers/net/dsa/lantiq/mxl-gsw1xx.c,hardplus_kernelnewbies_verified,,v6.19,v6.18..v6.19,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-095-sony-imx111-cmos-image-sensor-driver,95,new_driver_candidate_broader_subsystem,Sony IMX111 CMOS Image Sensor driver,drivers/media/i2c/imx111.c,hardplus_kernelnewbies_verified,,v6.19,v6.18..v6.19,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-096-st-vd56g3-sensor-driver,96,new_driver_candidate_broader_subsystem,ST VD56G3 sensor driver,drivers/media/i2c/vd56g3.c,hardplus_kernelnewbies_verified,,v6.16,v6.15..v6.16,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-097-thp7312-mipi-camera-subdev-driver,97,new_driver_candidate_broader_subsystem,THP7312 MIPI Camera Subdev Driver,drivers/media/i2c/thp7312.c,hardplus_kernelnewbies_verified,,v6.8,v6.7..v6.8,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-098-omnivision-ov64a40-sensor-driver,98,new_driver_candidate_broader_subsystem,OmniVision OV64A40 sensor driver,drivers/media/i2c/ov64a40.c,hardplus_kernelnewbies_verified,,v6.8,v6.7..v6.8,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-099-goodix-spi-driver-for-hid-touchscreen,99,standalone_new_driver_candidate,Goodix SPI driver for HID touchscreen,drivers/hid/hid-goodix-spi.c,hardplus_kernelnewbies_verified,,v6.12,v6.11..v6.12,v6.6,standalone_new_driver_candidate,add_hardplus_kernelnewbies_verified
-dataset-100-stmicroelectronics-stm32-octo-spi-driver,100,new_driver_candidate_broader_subsystem,STMicroelectronics STM32 OCTO SPI driver,drivers/spi/spi-stm32-ospi.c,hardplus_kernelnewbies_verified,,v6.15,v6.14..v6.15,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-101-analog-devices-ad7173-and-similar-adc-driver,101,new_driver_candidate_broader_subsystem,Analog Devices AD7173 and similar ADC driver,drivers/iio/adc/ad7173.c,hardplus_kernelnewbies_verified,,v6.10,v6.9..v6.10,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
-dataset-102-analog-devices-ade9000,102,new_driver_candidate_broader_subsystem,Analog Devices ADE9000,drivers/iio/adc/ade9000.c,hardplus_kernelnewbies_verified,,v6.18,v6.17..v6.18,v6.6,new_driver_candidate_broader_subsystem,add_hardplus_kernelnewbies_verified
+CaseID,Type,Name,Path
+dataset-002-rtw8821au,new_driver_local_multifile_or_stack,rtw8821au,drivers/net/wireless/realtek/rtw88/rtw8821au.c
+dataset-003-rtw8812au,new_driver_local_multifile_or_stack,rtw8812au,drivers/net/wireless/realtek/rtw88/rtw8812au.c
+dataset-005-realtek-dhc-rtd-soc-dwc3-glue,standalone_new_driver,Realtek DHC RTD SoC DWC3 glue,drivers/usb/dwc3/dwc3-rtk.c
+dataset-006-boe-th101mb31ig002-28a-panel,standalone_new_driver,BOE TH101MB31IG002-28A panel,drivers/gpu/drm/panel/panel-boe-th101mb31ig002-28a.c
+dataset-007-novatek-nt36672e-lcd-dsi-panel,standalone_new_driver,Novatek NT36672E LCD DSI panel,drivers/gpu/drm/panel/panel-novatek-nt36672e.c
+dataset-008-ite-it5205-alternate-mode-passive-mux,standalone_new_driver,ITE IT5205 Alternate Mode Passive MUX,drivers/usb/typec/mux/it5205.c
+dataset-009-asus-rog-ryujin-ii-360-aio-cooler,standalone_new_driver_with_new_framework_header,ASUS ROG RYUJIN II 360 AIO cooler,drivers/hwmon/asus_rog_ryujin.c
+dataset-010-astera-labs-pt5161l-retimer,standalone_new_driver,Astera Labs PT5161L retimer,drivers/hwmon/pt5161l.c
+dataset-011-ltc4282,standalone_new_driver,LTC4282,drivers/hwmon/ltc4282.c
+dataset-012-mps-mpq8785-converter,standalone_new_driver,MPS MPQ8785 converter,drivers/hwmon/pmbus/mpq8785.c
+dataset-013-nzxt-kraken-x-z-aio-coolers,standalone_new_driver_with_new_framework_header,NZXT Kraken X/Z AIO coolers,drivers/hwmon/nzxt-kraken3.c
+dataset-014-raydium-rm69380-dsi-panel,standalone_new_driver,Raydium RM69380 DSI panel,drivers/gpu/drm/panel/panel-raydium-rm69380.c
+dataset-015-airoha-en7581-spi-nand-flash-controller,standalone_new_driver_with_new_framework_header,Airoha EN7581 SPI-NAND flash controller,drivers/spi/spi-airoha-snfi.c
+dataset-016-lenovo-se10-watchdog,new_driver_local_multifile_or_stack,Lenovo SE10 watchdog,drivers/watchdog/lenovo_se10_wdt.c
+dataset-017-allwinner-d1-ldos-driver,standalone_new_driver,Allwinner D1 LDOs driver,drivers/regulator/sun20i-regulator.c
+dataset-018-epson-rx8111-rtc,standalone_new_driver,Epson RX8111 RTC,drivers/rtc/rtc-rx8111.c
+dataset-019-ch341a-usb-to-spi-driver,standalone_new_driver,CH341A USB-to-SPI driver,drivers/spi/spi-ch341.c
+dataset-021-ti-ads1119-adc,standalone_new_driver,TI ADS1119 ADC,drivers/iio/adc/ti-ads1119.c
+dataset-022-vishay-veml6040-rgbw-light-sensor,standalone_new_driver,Vishay VEML6040 RGBW light sensor,drivers/iio/light/veml6040.c
+dataset-023-axi-pwm-generator,standalone_new_driver_with_new_framework_header,AXI PWM generator,drivers/pwm/pwm-axi-pwmgen.c
+dataset-026-sy7802-flash-led-driver,standalone_new_driver,SY7802 flash LED driver,drivers/leds/flash/leds-sy7802.c
+dataset-027-sharp-memory-lcd-driver,standalone_new_driver_with_new_framework_header,Sharp Memory LCD driver,drivers/gpu/drm/tiny/sharp-memory.c
+dataset-028-apple-spi-controller,standalone_new_driver,Apple SPI controller,drivers/spi/spi-apple.c
+dataset-030-bosch-bmi270-i2c-imu,new_driver_local_multifile_or_stack,Bosch BMI270 I2C IMU,drivers/iio/imu/bmi270/bmi270_i2c.c
+dataset-031-bosch-smi240-imu,standalone_new_driver_with_new_framework_header,Bosch SMI240 IMU,drivers/iio/imu/smi240.c
+dataset-032-vishay-veml3235-light-sensor,standalone_new_driver,Vishay VEML3235 light sensor,drivers/iio/light/veml3235.c
+dataset-033-renesas-isl28022-power-monitor,standalone_new_driver,Renesas ISL28022 power monitor,drivers/hwmon/isl28022.c
+dataset-034-nuvoton-nct7363y-fan-controller,standalone_new_driver,Nuvoton NCT7363Y fan controller,drivers/hwmon/nct7363.c
+dataset-035-si7210-hall-magnetometer,standalone_new_driver_with_new_framework_header,Si7210 Hall/magnetometer,drivers/iio/magnetometer/si7210.c
+dataset-036-al3000a-ambient-light-sensor,standalone_new_driver_with_new_framework_header,AL3000A ambient light sensor,drivers/iio/light/al3000a.c
+dataset-037-sophgo-sg2042-pwm,standalone_new_driver,Sophgo SG2042 PWM,drivers/pwm/pwm-sophgo-sg2042.c
+dataset-038-rockchip-rk3588-rng,standalone_new_driver,Rockchip RK3588 RNG,drivers/char/hw_random/rockchip-rng.c
+dataset-039-nxp-s32g2-s32g3-rtc,standalone_new_driver,NXP S32G2/S32G3 RTC,drivers/rtc/rtc-s32g.c
+dataset-040-winsen-mh-z19b-co2-sensor,standalone_new_driver_with_new_framework_header,Winsen MH-Z19B CO2 sensor,drivers/iio/chemical/mhz19b.c
+dataset-041-adi-ad3530r-ad3531r-dacs,standalone_new_driver_with_new_framework_header,ADI AD3530R/AD3531R DACs,drivers/iio/dac/ad3530r.c
+dataset-042-nuvoton-nct7201-adc,standalone_new_driver_with_new_framework_header,Nuvoton NCT7201 ADC,drivers/iio/adc/nct7201.c
+dataset-043-dfrobot-sen0322-oxygen-sensor,standalone_new_driver,DFRobot SEN0322 oxygen sensor,drivers/iio/chemical/sen0322.c
+dataset-044-ad4170-4,standalone_new_driver_with_new_framework_header,,drivers/iio/adc/ad4170-4.c
+dataset-047-panel-samsung-s6e8aa5x01-ams561ra01,standalone_new_driver,,drivers/gpu/drm/panel/panel-samsung-s6e8aa5x01-ams561ra01.c
+dataset-048-nxp-s32g-ocotp,standalone_new_driver,NXP S32G OCOTP,drivers/nvmem/s32g-ocotp-nvmem.c
+dataset-049-himax-hx852x-hx852xes-touchscreen,standalone_new_driver_with_new_framework_header,Himax HX852x/HX852xES touchscreen,drivers/input/touchscreen/himax_hx852x.c
+dataset-050-awinic-aw86927-haptic-driver,standalone_new_driver,Awinic AW86927 haptic driver,drivers/input/misc/aw86927.c
+dataset-052-spi-amlogic-spifc-a4,standalone_new_driver,,drivers/spi/spi-amlogic-spifc-a4.c
+dataset-053-motorcomm-yt921x-switch-support,standalone_new_driver,Motorcomm YT921x switch support,drivers/net/dsa/yt921x.c
+dataset-055-renesas-rz-n1-adc,standalone_new_driver_with_new_framework_header,Renesas RZ/N1 ADC,drivers/iio/adc/rzn1-adc.c
+dataset-056-mps-mp9945-pmbus-driver,standalone_new_driver,MPS MP9945 PMBus driver,drivers/hwmon/pmbus/mp9945.c
+dataset-057-maxim-max17616-pmbus-driver,standalone_new_driver,Maxim MAX17616 PMBus driver,drivers/hwmon/pmbus/max17616.c
+dataset-058-tsc1641-i2c-power-monitor,standalone_new_driver,TSC1641 I2C power monitor,drivers/hwmon/tsc1641.c
+dataset-059-mpsse-bryx-brik-gpio-support,standalone_new_driver,MPSSE Bryx BRIK GPIO support,drivers/gpio/gpio-mpsse.c
+dataset-060-airoha-true-random-number-generator-driver,standalone_new_driver_candidate,Airoha True Random Number Generator driver,drivers/char/hw_random/airoha-trng.c
+dataset-061-bcm-74110-random-number-generator-rng-driver,standalone_new_driver_candidate,BCM 74110 Random Number Generator (RNG) driver,drivers/char/hw_random/bcm74110-rng.c
+dataset-062-microchip-mpfs-gpio,standalone_new_driver_candidate,"microchip,mpfs-gpio",drivers/gpio/gpio-mpfs.c
+dataset-063-hid-driver-for-corsair-void-headsets,standalone_new_driver_candidate,HID driver for Corsair Void headsets,drivers/hid/hid-corsair-void.c
+dataset-064-hid-driver-for-kysona-devices,standalone_new_driver_candidate,HID driver for Kysona devices,drivers/hid/hid-kysona.c
+dataset-065-ge-healthcare-pmc-adc-driver,standalone_new_driver_candidate,GE HealthCare PMC ADC driver,drivers/iio/adc/gehc-pmc-adc.c
+dataset-066-als31300-3-d-linear-hall-effect-driver,standalone_new_driver_candidate,ALS31300 3-D Linear Hall Effect Driver,drivers/iio/magnetometer/als31300.c
+dataset-067-nxp-ptn3222-eusb2-redriver-driver,standalone_new_driver_candidate,NXP PTN3222 eUSB2 Redriver driver,drivers/phy/phy-nxp-ptn3222.c
+dataset-068-stm32mp25-combophy-usb3-pcie-controller-driver,standalone_new_driver_candidate,STM32MP25 Combophy USB3/PCIe controller driver,drivers/phy/st/phy-stm32-combophy.c
+dataset-069-amlogic-rtc-driver,standalone_new_driver_candidate,Amlogic RTC driver,drivers/rtc/rtc-amlogic-a4.c
+dataset-070-renesas-rtca-3-rtc-driver,standalone_new_driver_candidate,Renesas RTCA-3 RTC driver,drivers/rtc/rtc-renesas-rtca3.c
+dataset-071-realtek-spi-nand-flash-controller-driver,standalone_new_driver_candidate,Realtek SPI-NAND Flash Controller Driver,drivers/spi/spi-realtek-rtl-snand.c
+dataset-072-tusb1046-usb-type-c-switch-driver,standalone_new_driver_candidate,TUSB1046 USB Type-C switch driver,drivers/usb/typec/mux/tusb1046.c
+dataset-073-airoha-en7581-watchdog-driver,standalone_new_driver_candidate,Airoha EN7581 Watchdog Driver,drivers/watchdog/airoha_wdt.c
+dataset-074-analog-devices-ltc2991-hwmon-driver,standalone_new_driver_candidate,Analog Devices LTC2991 HWMON Driver,drivers/hwmon/ltc2991.c
+dataset-075-chargerlab-power-z-usb-c-tester,standalone_new_driver_candidate,ChargerLAB POWER-Z USB-C tester,drivers/hwmon/powerz.c
+dataset-076-linear-technology-ltc2309-adc,standalone_new_driver_candidate,Linear Technology LTC2309 ADC,drivers/iio/adc/ltc2309.c
+dataset-077-mm8013-fuel-gauge-driver,standalone_new_driver_candidate,MM8013 fuel gauge driver,drivers/power/supply/mm8013.c
+dataset-078-mstar-ssd202d-rtc-driver,standalone_new_driver_candidate,MStar SSD202D RTC Driver,drivers/rtc/rtc-ssd202d.c
+dataset-079-mcp2200-microchip-hid-usb-to-gpio-bridge,standalone_new_driver_candidate,MCP2200 Microchip HID USB to GPIO bridge,drivers/hid/hid-mcp2200.c
+dataset-080-hwmon-driver-for-gigabyte-aorus-waterforce-aio-coolers,standalone_new_driver_candidate,Hwmon driver for Gigabyte AORUS Waterforce AIO coolers,drivers/hwmon/gigabyte_waterforce.c
+dataset-081-pmbus-driver-for-ltc4286-and-compatibles,standalone_new_driver_candidate,PMBUS driver for LTC4286 and compatibles,drivers/hwmon/pmbus/ltc4286.c
+dataset-082-maxim-max34408-34409-adc-driver,standalone_new_driver_candidate,Maxim MAX34408/34409 ADC driver,drivers/iio/adc/max34408.c
+dataset-083-aosong-ags02ma-tvoc-driver,standalone_new_driver_candidate,Aosong AGS02MA TVOC Driver,drivers/iio/chemical/ags02ma.c
+dataset-084-microchip-mcp4821-dac-driver,standalone_new_driver_candidate,Microchip MCP4821 DAC Driver,drivers/iio/dac/mcp4821.c
+dataset-085-ti-hdc3020-humidity-and-temperature-sensor-driver,standalone_new_driver_candidate,TI HDC3020 humidity and temperature sensor driver,drivers/iio/humidity/hdc3020.c
+dataset-086-htu31-temperature-and-humidity-sensor-driver,standalone_new_driver_candidate,HTU31 Temperature and Humidity sensor driver,drivers/hwmon/htu31.c
+dataset-087-pegatron-chagall-fuel-gauge-driver,standalone_new_driver_candidate,Pegatron Chagall fuel gauge driver,drivers/power/supply/chagall-battery.c
+dataset-088-dw-mipi-dsi2-host-controller-driver,new_driver_candidate_broader_subsystem,DW MIPI DSI2 host controller driver,drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi2.c
+dataset-089-drm-driver-for-sitronix-st7571-lcd-controller,new_driver_candidate_broader_subsystem,DRM Driver for Sitronix ST7571 LCD controller,drivers/gpu/drm/sitronix/st7571-i2c.c
+dataset-090-himax-hx8279-driveric-panels-driver,new_driver_candidate_broader_subsystem,Himax HX8279 DriverIC panels driver,drivers/gpu/drm/panel/panel-himax-hx8279.c
+dataset-091-solomon-ssd2825-rgb-to-mipi-dsi-bridge-driver-spi,new_driver_candidate_broader_subsystem,Solomon SSD2825 RGB to MIPI-DSI bridge driver SPI,drivers/gpu/drm/bridge/ssd2825.c
+dataset-092-drm-spi-driver-for-pixpaper-e-ink-panel,new_driver_candidate_broader_subsystem,DRM SPI driver for PIXPAPER e-ink panel,drivers/gpu/drm/tiny/pixpaper.c
+dataset-093-mediatek-hdmiv2-driver,new_driver_candidate_broader_subsystem,MediaTek HDMIv2 Driver,drivers/gpu/drm/mediatek/mtk_hdmi_v2.c
+dataset-094-driver-for-maxlinear-gsw1xx-ethernet-switch,new_driver_candidate_broader_subsystem,Driver for MaxLinear GSW1xx ethernet switch,drivers/net/dsa/lantiq/mxl-gsw1xx.c
+dataset-095-sony-imx111-cmos-image-sensor-driver,new_driver_candidate_broader_subsystem,Sony IMX111 CMOS Image Sensor driver,drivers/media/i2c/imx111.c
+dataset-096-st-vd56g3-sensor-driver,new_driver_candidate_broader_subsystem,ST VD56G3 sensor driver,drivers/media/i2c/vd56g3.c
+dataset-097-thp7312-mipi-camera-subdev-driver,new_driver_candidate_broader_subsystem,THP7312 MIPI Camera Subdev Driver,drivers/media/i2c/thp7312.c
+dataset-098-omnivision-ov64a40-sensor-driver,new_driver_candidate_broader_subsystem,OmniVision OV64A40 sensor driver,drivers/media/i2c/ov64a40.c
+dataset-099-goodix-spi-driver-for-hid-touchscreen,standalone_new_driver_candidate,Goodix SPI driver for HID touchscreen,drivers/hid/hid-goodix-spi.c
+dataset-100-stmicroelectronics-stm32-octo-spi-driver,new_driver_candidate_broader_subsystem,STMicroelectronics STM32 OCTO SPI driver,drivers/spi/spi-stm32-ospi.c
+dataset-101-analog-devices-ad7173-and-similar-adc-driver,new_driver_candidate_broader_subsystem,Analog Devices AD7173 and similar ADC driver,drivers/iio/adc/ad7173.c
+dataset-102-analog-devices-ade9000,new_driver_candidate_broader_subsystem,Analog Devices ADE9000,drivers/iio/adc/ade9000.c
